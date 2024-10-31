@@ -11,7 +11,6 @@ public class Task06Main {
 
     void printMethodName() {
         StackTraceElement MethodName =  new RuntimeException().getStackTrace()[1]; // [0] -> printMethodName
-        System.out.println(MethodName.getMethodName());
+        System.out.print(MethodName.getMethodName());
     }
-
 }
